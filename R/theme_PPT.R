@@ -3,7 +3,7 @@
 #' @param size_text integer
 #' @param legend.key.size.v integer
 #'
-#' @return
+#' @return theme
 #' @export
 #'
 #' @examples
@@ -13,7 +13,6 @@
 #' cyl  <- factor(cyl)
 #' gear <- factor(gear)
 #' })
-#'
 #' p1 <- ggplot2::ggplot(mtcars2) +
 #' ggplot2::geom_point(ggplot2::aes(x = wt, y = mpg, colour = gear)) +
 #' ggplot2::labs(title = "Fuel economy declines as weight increases",
@@ -25,9 +24,6 @@
 #'       colour = "Gears")
 #'       p1
 #'       p1 + theme_PPT(16)
-#'
-#'
-#'
 theme_PPT <- function(size_text = 14, legend.key.size.v =    1.5){
   return_theme <- ggplot2::theme_bw() +
     ggplot2::theme(axis.title.x = ggplot2::element_text(size=size_text),

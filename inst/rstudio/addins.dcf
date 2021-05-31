@@ -1,0 +1,4 @@
+Name: lazy_writting
+Description:  write ` <- variable %>% `at the cursor position.
+Binding: set_lazy_variable_allocation_function
+Interactive: false

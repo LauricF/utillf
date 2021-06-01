@@ -1,5 +1,5 @@
 #' automatic writting of begining of allocation to  a variable inside rstudio
-#'
+#' thank you https://www.statworx.com/de/blog/defining-your-own-shortcut-in-rstudio/
 #' @return automatic writting of begining of allocation to  a variable inside rstudio
 set_lazy_variable_allocation_function <- function(){
   # grab current document information

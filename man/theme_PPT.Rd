@@ -18,15 +18,16 @@ theme
 Title
 }
 \examples{
+library(ggplot2)
 mtcars2 <- within(mtcars, {
 vs <- factor(vs, labels = c("V-shaped", "Straight"))
 am <- factor(am, labels = c("Automatic", "Manual"))
 cyl  <- factor(cyl)
 gear <- factor(gear)
 })
-p1 <- ggplot2::ggplot(mtcars2) +
-ggplot2::geom_point(ggplot2::aes(x = wt, y = mpg, colour = gear)) +
-ggplot2::labs(title = "Fuel economy declines as weight increases",
+p1 <- ggplot(mtcars2) +
+geom_point(aes(x = wt, y = mpg, colour = gear)) +
+labs(title = "Fuel economy declines as weight increases",
       subtitle = "(1973-74)",
       caption = "Data from the 1974 Motor Trend US magazine.",
       tag = "Figure 1",

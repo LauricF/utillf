@@ -2,7 +2,8 @@
 % Please edit documentation in R/set_lazy_variable_allocation_function.R
 \name{set_lazy_variable_allocation_function}
 \alias{set_lazy_variable_allocation_function}
-\title{automatic writting of begining of allocation to  a variable inside rstudio}
+\title{automatic writting of begining of allocation to  a variable inside rstudio
+thank you https://www.statworx.com/de/blog/defining-your-own-shortcut-in-rstudio/}
 \usage{
 set_lazy_variable_allocation_function()
 }
@@ -11,4 +12,5 @@ automatic writting of begining of allocation to  a variable inside rstudio
 }
 \description{
 automatic writting of begining of allocation to  a variable inside rstudio
+thank you https://www.statworx.com/de/blog/defining-your-own-shortcut-in-rstudio/
 }

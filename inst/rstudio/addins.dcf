@@ -2,3 +2,8 @@ Name: lazy_writting
 Description:  write ` <- variable %>% `at the cursor position.
 Binding: set_lazy_variable_allocation_function
 Interactive: false
+
+Name: help_shortcut
+Description:  call help on a function
+Binding: help_shortcut
+Interactive: false

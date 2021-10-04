@@ -26,7 +26,7 @@
 #'       p1
 #'       p1 + theme_PPT(16)
 theme_PPT <- function(size_text = 14, legend.key.size.v =    1.5){
-  return_theme <- theme_bw() +
+  return_theme <- theme_bw()  +
     theme(axis.title.x = element_text(size=size_text),
                      axis.text.x  = element_text(size=size_text),
                      axis.title.y = element_text(size=size_text),
